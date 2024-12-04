@@ -20,7 +20,8 @@ dGPU|Asus Dual RX 6600 XT|`agdpmod=pikera` multiple monitor setup works
 WiFi/BT|Fenvi BCM94360NG|patching required (see instructions below)
 
 Not working / untested:
-* N/A
+* OTA/Delta Updates (see the note below)
+
 ## Patching Instructions
 1. Download and install OpenCore Legacy Patcher - https://github.com/dortania/OpenCore-Legacy-Patcher/tree/main
 2. Press `Post-Install Root Patch`
