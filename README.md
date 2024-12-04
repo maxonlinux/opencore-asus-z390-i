@@ -1,5 +1,5 @@
-# opencore-asus-z390-i
-OpenCore for ASUS ROG STRIX Z390-I GAMING (Ventura Branch)
+# -||-
+OpenCore for ASUS ROG STRIX Z390-I GAMING
 
 ## Branch List
 - Sequoia: https://github.com/maxonlinux/opencore-asus-z390-i/tree/sequoia
