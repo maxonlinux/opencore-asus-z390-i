@@ -1,5 +1,5 @@
 # opencore-asus-z390-i
-OpenCore for ASUS ROG STRIX Z390-I GAMING
+OpenCore for ASUS ROG STRIX Z390-I GAMING (Ventura Branch)
 
 ## General
 System version:
