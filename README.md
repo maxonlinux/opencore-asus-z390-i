@@ -8,6 +8,8 @@ OS|Version|Number|SMBIOS
 |-|-|-|-|
 |Sequoia|15.1.1|(24B91)|iMac19,1
 
+_<sub>SHOULD ALSO WORK ON SONOMA (UNTESTED)</sub>_
+
 Hardware tested:
 Part|Model|Remarks
 |-|-|-|
@@ -21,6 +23,7 @@ WiFi/BT|Fenvi BCM94360NG|patching required (see instructions below)
 
 Not working / untested:
 * OTA/Delta Updates (see the note below)
+* Compatibility with Sonoma (untested, but should work)
 
 ## Patching Instructions
 1. Download and install OpenCore Legacy Patcher - https://github.com/dortania/OpenCore-Legacy-Patcher/tree/main
@@ -34,4 +37,4 @@ _<sub>NOTE: WITH BROADCOM-BASED WIFI/BT YOU WILL LOSE SIP AND SECURE BOOT IN ORD
 
 ## Important
 _<sub>PLEASE GENERATE YOUR OWN `MLB`, `ROM`, `SystemSerialNumber` and `SystemUUID` OR <ins>YOUR HACK WILL NOT BOOT</ins></sub>_\
-_<sub>USB MAP IS NOT PROVIDED, PLEASE MAKE YOUR OWN (YOU WILL NEED TO CHOOSE WHAT PORTS TO DISABLE AS NOT ALL OF THEM CAN FIT INTO 15 PORT LIMIT)</sub>_
+_<sub>USB MAP IS PROVIDED IN KEXTS, BUT PLEASE MAKE YOUR OWN (YOU WILL NEED TO CHOOSE WHAT PORTS TO DISABLE AS NOT ALL OF THEM CAN FIT INTO 15 PORT LIMIT)</sub>_
